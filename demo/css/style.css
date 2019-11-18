@@ -1,0 +1,672 @@
+.base{
+padding-left: 20vw;
+padding-right: 20vw;
+}
+.baner1{
+    height: 50vmin;
+    margin-bottom: 3%;
+}
+.navbar{
+    padding: 1.5rem 0.5rem !important;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 500;
+    letter-spacing: 0.1vmin;
+    line-height: 6vmin;
+    font-size: 2vmin;
+}
+.navbar-brand{
+    font-family: league-gothic-condensed, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-kerning: 5rem;
+    color: black;
+    
+}
+.nav-link{
+    color: black;
+}
+
+#baner{
+    background-image: url("../img/banerLarge.jpg");
+    background-size:cover;
+    background-position:center center;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    z-index: 1;
+}
+
+.caption{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    margin: -31vmin;
+    font-size: 8vh;
+    letter-spacing: 1vmin;
+    line-height: 8vmin;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 800;
+    text-shadow: 0 0 10px rgba(48,48,48,0.7);
+}
+
+.right-align, .left-align{
+    font-size: 2vh;
+    line-height: 5vh;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 700;
+    text-align: right;
+    margin-bottom: 0;
+}
+.left-align{
+    text-align: left;
+}
+.title{
+    font-size: 5vmin;
+    line-height: 6vmin;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 800;
+    text-align: left;
+    margin-top: 5.5vmin;
+}
+.title-second{
+    text-align: end;
+    font-size: 5vmin;
+    line-height: 6vmin;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 700;
+    position: absolute;
+    z-index: 3;
+    width: inherit;
+    margin-top: 4vh;
+    margin-left: -6%;
+}
+.text{
+    width: 100vh;
+    height: 4vmin;
+    font-size: 1.5vmin;
+    line-height: 3vmin;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: left !important;
+    margin-left: 0%;
+    margin-bottom: 2rem
+}
+.second{
+    position: absolute;
+    z-index: 3;
+    margin-top: 33%;
+    height: 13vmin;
+    width: inherit;
+    margin-left: 5%;
+}
+.img-right{
+    height: 25vmin;
+    width: fit-content;
+    margin-left: 5vmin;
+}
+.rectangle{
+    width: 47vmin;
+    height: 12vmin;
+    background-color: #f6f6f6;
+    position: absolute;
+    z-index: 1;
+    margin-top: 8%;
+    margin-left: 3%;
+}
+.baner2{
+    height: 30vmin;
+    margin-bottom: 3%;
+}
+.Two{
+    width: 593px !important;
+    height: 250px !important;
+    margin-top: 39px;
+}
+.rotate{
+    transform: translateX(21px) rotate(66deg) translateY(42px);
+    width: 42vmin;
+    height: 22vmin;
+    margin-top: 0;
+    position: absolute;
+    z-index: 1;
+
+}
+.img-left{
+    height: 43vmin;
+    width: inherit;
+    position: absolute;
+    z-index: 2;
+}
+img{
+    width: inherit;
+}
+.imgRight{
+    height: 45vmin;
+    width: inherit;
+    margin-left: -8%;
+    position: absolute;
+    z-index: 2;
+}
+
+.left-align-second{
+    text-align: left;
+    margin-left: 5%;
+    font-size: 2vh;
+    line-height: 6vh;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 700;
+    position: absolute;
+    z-index: 3;
+    margin-top: 53%;
+    
+}
+.sec{
+    margin-top: 65%;
+}
+.third{
+    margin-top: 22vmin;
+    position: absolute;
+    z-index: 3;
+    font-size: 7vmin;
+    letter-spacing: 1vmin;
+    line-height: 7.6vmin;
+}
+.secondContainer{
+    height: 25vmin;
+    width: inherit;
+    background-image: url(../img/secondBaner.jpg) ;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+.secondCaption{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    font-size: 3.3vmin;
+    letter-spacing: 0.5vmin;
+    color: #ffffff;
+    margin-top: -16vmin;
+    font-family: "Open Sans";
+    font-weight: 800;
+    text-shadow: 0 0 10px rgba(48,48,48,0.7);
+}
+#button{
+    position: relative;
+    z-index: 2;
+    margin-left: 42%;
+    width: 11vmin;
+    height: 2.3vmin;
+    border-radius: 15px;
+    line-height: 1vh;
+    font-size: 1.2vmin;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 700;
+    letter-spacing: 0.1vmin;
+    margin-top: -3vmin;
+}
+#textCenter{
+    height: 20vmin;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.container>p{
+    font-size: 2vmin;
+    line-height: 2vmin;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 700;
+    margin: 0.7%;
+}
+.center{
+    height: 15vmin;
+    font-size: 1.2vmin;
+    line-height: 2.5vmin;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: center !important;
+    margin-top: 3%;
+}
+.gallery{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 50vmin;
+    
+}
+.img-gallery{
+    width: 30vmin;
+    height: 25vmin;
+}
+.marg{
+    font-size: 8vmin;
+    letter-spacing: 1vmin;
+    line-height: 32vmin;
+}
+.lastPart{
+    height: 55vmin;
+}
+.img-last{
+    height: 48vmin;
+    width: initial;
+    position: absolute;
+    z-index: 2;
+}
+.title-last{
+    text-align: right;
+    font-size: 3.5vmin;
+    line-height: 4.3vmin;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 700;
+    position: absolute;
+    z-index: 3;
+    margin-left: 10vmin;
+}
+
+.text-last{
+    width: initial;
+    height: 40vmin;
+    font-size: 1.3vmin;
+    line-height: 3vmin;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 400;
+    position: absolute;
+    z-index: 3;
+    margin-top: 11vmin
+}
+.left-align-last{
+    text-align: left;
+    font-size: 2vh;
+    line-height: 6vh;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 800;
+    position: absolute;
+    z-index: 3;
+    margin-top: 37vmin;
+}
+.footer{
+    height: 27vmin;
+}
+.containerLast{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.down{
+    height: 7vmin;
+}
+/* @media screen and (max-width: 1440px){
+    .title{
+        margin-top: 3.5vmin;
+    }
+    .img-right {
+        width: 37vmin;
+    margin-left: 7vmin;
+    height: 22vmin;
+}
+.rectangle {
+    width: 60vmin;
+    height: 20vmin;
+}
+.rotate {
+    transform: translateX(96px)  rotate(69deg) translateY(107px);
+    width: 37vmin;
+    height: 18vmin;
+    margin-top: 0;
+    position: absolute;
+    z-index: 1;
+}
+.second{
+    margin-top: 37%;
+    font-size: 1.3vmin;
+    line-height: 3vmin;
+}
+.third{
+margin-top: 22.5vmin
+}
+.left-align-second{
+    margin-top: 58%;
+}
+.third{
+    font-size: 5vmin;
+    letter-spacing: 0vmin;
+    line-height: 5.6vmin;
+
+}
+.imgRight {
+    height: 39vmin;
+}
+.gallery {
+    height: 90vmin;
+}
+.img-last {
+    height: 42vmin;
+    width: 35vmin;
+}
+.title-last {
+    margin: 0;
+}
+.text-last{
+    height: 19vmin;
+    font-size: 1.1vmin;
+    line-height: 2vmin;
+}
+.left-align-last{
+    margin-top: 28vmin;
+}
+.Two {
+    width: 76vmin !important;
+    height: 27vmin!important;
+    margin-top: 7vmin;
+}
+}
+
+@media screen and (max-width: 700px) and (min-width: 200px) {
+    .base{
+        padding-left: 20vw;
+        padding-right: 20vw;
+        }
+    
+    
+        .baner1{
+            height: 50vmax;
+            margin-bottom: 3%;
+        }
+        .navbar{
+            padding: 1.5rem 0.5rem !important;
+            color: #000000;
+            font-family: "Open Sans";
+            font-weight: 500;
+            letter-spacing: 0.1vmin;
+            line-height: 6vmin;
+            font-size: 2vmin;
+        }
+        .navbar-brand{
+            font-family: league-gothic-condensed, sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-kerning: 5rem;
+            color: black;
+            
+        }
+        .nav-link{
+            color: black;
+        }
+        
+        #baner{
+            background-image: url("../img/banerSmall.jpg");
+            background-size: 80vmax;
+            background-repeat: no-repeat;
+            background-position:center center;
+            width: 100%;
+            height: 50vh;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .caption{
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            margin: -60vmin;
+             font-size: 3vh;
+            letter-spacing: 1vmin;
+            line-height: 8vmin;
+            color: #ffffff;
+            font-family: "Open Sans";
+            font-weight: 800;
+            text-shadow: 0 0 10px rgba(48,48,48,0.7);
+        }
+        .mainPart{
+            height: 85vmax !important;
+        }
+        .row{
+            height: inherit !important;
+        }
+        .right-align, .left-align{
+            font-size: 2vh;
+            line-height: 5vh;
+            color: #000000;
+            font-family: "Open Sans";
+            font-weight: 700;
+            text-align: right;
+            margin-bottom: 0;
+        }
+        .left-align{
+            text-align: left;
+        }
+        .title{
+            font-size: 5vmin;
+            line-height: 6vmin;
+            color: #000000;
+            font-family: "Open Sans";
+            font-weight: 800;
+            text-align: left;
+            margin-top: 5.5vmin;
+        }
+        .title-second{
+            text-align: end;
+            font-size: 5vmin;
+            line-height: 6vmin;
+            color: #000000;
+            font-family: "Open Sans";
+            font-weight: 700;
+            
+            width: inherit;
+            margin-top: 4vh;
+            margin-left: -6%;
+        }
+        .text{
+            width: 100vh;
+            height: 4vmin;
+            font-size: 1.5vmin;
+            line-height: 3vmin;
+            color: #000000;
+            font-family: "Open Sans";
+            font-weight: 400;
+            text-align: left !important;
+            margin-left: 0%;
+            margin-bottom: 2rem
+        }
+        .second{
+            position: absolute;
+            z-index: 3;
+            margin-top: 33%;
+            height: 13vmin;
+            width: inherit;
+            margin-left: 5%;
+        }
+        .img-right{
+            height: 25vmin;
+            width: fit-content;
+            margin-left: 5vmin;
+        }
+     
+        .baner2{
+            height: 30vmin;
+            margin-bottom: 3%;
+        }
+      
+      
+        .img-left{
+            height: 43vmin;
+            width: inherit;
+           
+        }
+        img{
+            width: inherit;
+        }
+        .imgRight{
+            height: 29vmax !important;
+            width: 30vmax;
+            margin-top: -28vmax;
+            
+        }
+        
+        .left-align-second{
+            text-align: left;
+            margin-left: 5%;
+            font-size: 2vh;
+            line-height: 6vh;
+            color: #000000;
+            font-family: "Open Sans";
+            font-weight: 700;
+            margin-top: 53%;
+            
+        }
+        .sec{
+            margin-top: 65%;
+        }
+        .third{
+            margin-top: -26vmax !important;
+            font-size: 5vmax;
+            letter-spacing: 1vmax;
+            line-height: 4vmax;
+        }
+        .secondContainer{
+            height: 25vmax;
+            width: inherit;
+            background-image: url(../img/secondBaner.jpg) ;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            z-index: 1;
+        }
+        .secondCaption{
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            font-size: 1vmax;
+            letter-spacing: 0.5vmin;
+            color: #ffffff;
+            margin-top: -14vmax;
+            font-family: "Open Sans";
+            font-weight: 800;
+            text-shadow: 0 0 10px rgba(48,48,48,0.7);
+        }
+        #button{
+            position: relative;
+            z-index: 2;
+            margin-left: 42%;
+            width: 6vmax;
+            height: 1.3vmax;
+            border-radius: 15px;
+            font-size: 0.5vmax;
+            color: #000000;
+            font-family: "Open Sans";
+            font-weight: 700;
+            margin-top: -13vmin;
+        }
+        #textCenter{
+            height: 15vmax;
+        }
+        .container{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+        }
+        .container>p{
+            font-size: 1vmax;
+            line-height: 2vmin;
+            color: #000000;
+            font-family: "Open Sans";
+            font-weight: 700;
+            margin: 0.7%;
+        }
+        .center{
+            height: 15vmax;
+            font-size: 0.5vmax;
+            line-height: 2.5vmin;
+            color: #000000;
+            font-family: "Open Sans";
+            font-weight: 400;
+            text-align: center !important;
+            margin-top: 3%;
+        }
+        .gallery{
+            height: 70vmax !important;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+        }
+        .rectangle{
+            background-color: white;
+            height: 0;
+            width: 0;
+        }
+        .img-gallery{
+            width: 16vmax;
+             height: 22vmax;
+        }
+        .marg{
+            font-size: 4vmax;
+            letter-spacing: 1vmax;
+            line-height: 32vmax;
+        }
+        .lastPart{
+            height: 60vmax;
+        }
+        .img-last{
+            height: 28vmax;
+            width: initial;
+            
+        }
+        .title-last{
+            text-align: right;
+            font-size: 3.5vmin;
+            line-height: 4.3vmin;
+            color: #000000;
+            font-family: "Open Sans";
+            font-weight: 700;
+        }
+        
+        .text-last{
+            width: initial;
+            height: 40vmax;
+            font-size: 0.5vmax;
+            line-height: 3vmin;
+            color: #000000;
+            font-family: "Open Sans";
+            font-weight: 400;
+            margin-top: 11vmin
+        }
+        .left-align-last{
+            text-align: left;
+            font-size: 2vh;
+            line-height: 6vh;
+            color: #000000;
+            font-family: "Open Sans";
+            font-weight: 800;
+           
+            margin-top: 37vmin;
+        }
+        .footer{
+            height: 27vmin;
+        }
+        .containerLast{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+        }
+        .down{
+            height: 7vmin;
+        }
+    } */
